@@ -59,8 +59,9 @@ pipeline {
     post {
         success {
             echo '=================================================='
-            echo '🎉 Local Build & Deployment Succeeded!'
-            echo '🌐 Application is live at: http://localhost:5173'
+            echo '🎉 Fullstack Build & Deployment Succeeded!'
+            echo '🌐 Frontend is live at: http://localhost:5173'
+            echo '🌐 Backend API is live at: http://localhost:5000'
             echo '=================================================='
         }
         failure {
