@@ -18,3 +18,4 @@ EXPOSE 5000
 
 # Step 7: Start backend server
 CMD ["npm", "start"]
+
